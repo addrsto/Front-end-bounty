@@ -1,0 +1,195 @@
+{
+  "BTC": {
+    "enabled": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Bitcoin.svg/1024px-Bitcoin.svg.png",
+    "ticker": "BTC",
+    "name": "Bitcoin",
+    "uri": "bitcoin:{address}",
+    "ERC20": false
+  },
+  "ETH": {
+    "enabled": true,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1200px-Ethereum_logo_2014.svg.png",
+    "ticker": "ETH",
+    "name": "Ethereum",
+    "uri": "ethereum:{address}",
+    "ERC20": false
+  },
+  "DAI": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/multi-collateral-dai-dai-logo.png",
+    "ticker": "DAI",
+    "name": "DAI",
+    "uri": "ethereum:0x6B175474E89094C44Da98b954EedeAC495271d0F/transfer?address={address}",
+    "ERC20": true
+  },
+"USDC": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/usd-coin-usdc-logo.png?v=003",
+    "ticker": "USDC",
+    "name": "USDC",
+    "uri": "ethereum:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48/transfer?address={address}",
+    "ERC20": true
+  },
+  "XUSD": {
+    "enabled": true,
+    "logo": "https://cdn.discordapp.com/attachments/810019962365411342/850979126995058688/xUSD.png",
+    "ticker": "XUSD",
+    "name": "Synth USD",
+    "uri": "ethereum:0x1b3be37Ce83539802Cc63919937DDAe3dce8096c/transfer?address={address}",
+    "ERC20": true
+  },
+  "CNJ": {
+    "enabled": true,
+    "logo": "https://cdn.discordapp.com/attachments/810019962365411342/850980391443365928/1622917833141.png",
+    "ticker": "CNJ",
+    "name": "Conjure",
+    "uri": "ethereum:0x00a55375002f3cda400383f479e7cd57bad029a9/transfer?address={address}",
+    "ERC20": true
+  },
+  "USDT": {
+    "enabled": true,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png",
+    "ticker": "USDT",
+    "name": "Tether USD",
+    "uri": "ethereum:0xdAC17F958D2ee523a2206206994597C13D831ec7/transfer?address={address}",
+    "ERC20": true
+  },
+  "AAVE": {
+    "enabled": true,
+    "logo": "https://zapper.fi/images/AAVE-icon.png",
+    "ticker": "AAVE",
+    "name": "Aave",
+    "uri": "ethereum:0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9/transfer?address={address}",
+    "ERC20": true
+  },
+  "BAL": {
+    "enabled": true,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xba100000625a3754423978a60c9317c58a424e3D/logo.png",
+    "ticker": "BAL",
+    "name": "Balancer",
+    "uri": "ethereum:0xba100000625a3754423978a60c9317c58a424e3D/transfer?address={address}",
+    "ERC20": true
+  },
+"BCH": {
+    "enabled": true,
+    "logo": "https://raw.githubusercontent.com/theantnest/Bitcoin-Cash-Green-Art/master/BCC%20Round%20Icon/BCC%20Round%20Icon%20RGBA.png",
+    "ticker": "BCH",
+    "name": "Bitcoin Cash",
+    "uri": "bitcoincash:{address}",
+    "ERC20": false
+  },
+  "CDAI": {
+    "enabled": true,
+    "logo": "https://etherscan.io/token/images/compounddai_32.png",
+    "ticker": "CDAI",
+    "name": "cDAI",
+    "uri": "ethereum:0x5d3a536e4d6dbd6114cc1ead35777bab948e3643/transfer?address={address}",
+    "ERC20": true
+  },
+  "COMP": {
+    "enabled": true,
+    "logo": "https://compound.finance/images/compound-mark.svg",
+    "ticker": "COMP",
+    "name": "Compound",
+    "uri": "ethereum:0xc00e94cb662c3520282e6f5717214004a7f26888/transfer?address={address}",
+    "ERC20": true
+  },
+  "CC10": {
+    "enabled": true,
+    "logo": "https://indexed.finance/static/media/cc-light.bf51deb1.png",
+    "ticker": "CC10",
+    "name": "Cryptocurrency Top 10 Index",
+    "uri": "ethereum:0x17ac188e09a7890a1844e5e65471fe8b0ccfadf3/transfer?address={address}",
+    "ERC20": true
+  }, 
+"DEFI5": {
+    "enabled": true,
+    "logo": "https://indexed.finance/static/media/defi-light.e5d9c4b7.png",
+    "ticker": "DEFI5",
+    "name": "DEFI Top 5 Index",
+    "uri": "ethereum:0xfa6de2697d59e88ed7fc4dfe5a33dac43565ea41/transfer?address={address}",
+    "ERC20": true
+  },
+  "DOGE": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=003",
+    "ticker": "DOGE",
+    "name": "Dogecoin",
+    "uri": "dogecoin:{address}",
+    "ERC20": false
+  }, 
+  "LINK": {
+    "enabled": true,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png",
+    "ticker": "LINK",
+    "name": "ChainLink",
+    "uri": "ethereum:0x514910771AF9Ca656af840dff83E8264EcF986CA/transfer?address={address}",
+    "ERC20": true
+  }, 
+  
+  "NANO": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/nano-nano-logo.png?v=003",
+    "ticker": "NANO",
+    "name": "NANO",
+    "uri": "nano:{address}",
+    "ERC20": false
+},
+"NDX": {
+    "enabled": true,
+    "logo": "https://etherscan.io/token/images/indexed_32.png",
+    "ticker": "NDX",
+    "name": "Indexed",
+    "uri": "ethereum:0x86772b1409b61c639eaac9ba0acfbb6e238e5f83/transfer?address={address}",
+    "ERC20": true
+  }, 
+  "PAXG": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/pax-gold-paxg-logo.png?v=003",
+    "ticker": "PAXG",
+    "name": "Paxos Gold",
+    "uri": "ethereum:0x45804880de22913dafe09f4980848ece6ecbaf78/transfer?address={address}",
+    "ERC20": true
+  },
+  "SEED": {
+    "enabled": true,
+    "logo": "https://github.com/SproutdotMoney/Web/raw/master/public/sprout_logo.png",
+    "ticker": "SEED",
+    "name": "Sprout",
+    "uri": "ethereum:0x42b54830bcbb0a240aa54cd3f8d1a4db00851fe3/transfer?address={address}",
+    "ERC20": true
+  },
+  "UNI": {
+    "enabled": true,
+    "logo": "https://ipfs.io/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg",
+    "ticker": "UNI",
+    "name": "Uniswap",
+    "uri": "ethereum:0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/transfer?address={address}",
+    "ERC20": true
+  },
+  "WBTC": {
+    "enabled": true,
+    "logo": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+    "ticker": "WBTC",
+    "name": "Wrapped Bitcoin",
+    "uri": "ethereum:0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/transfer?address={address}",
+    "ERC20": true
+  },
+"XMR": {
+    "enabled": true,
+    "logo": "https://cryptologos.cc/logos/monero-xmr-logo.png?v=003",
+    "ticker": "XMR",
+    "name": "Monero",
+    "uri": "monero:{address}",
+    "ERC20": false
+  },
+"YFI": {
+    "enabled": true,
+    "logo": "https://zapper.fi/images/YFI-icon.png",
+    "ticker": "YFI",
+    "name": "Yearn Finance",
+    "uri": "ethereum:0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e/transfer?address={address}",
+    "ERC20": true
+  }
+}

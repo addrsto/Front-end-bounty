@@ -1,0 +1,29 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "users": {
+      "$uid": {
+    		".validate": "!root.child('users').hasChild($uid)
+        && $uid == auth.uid"
+      }
+    },
+    "handles": {
+      "$handle": {
+      	".validate": "!data.parent().hasChild($handle)
+        && root.child('users').child(auth.uid).val() == newData.val()
+        && $handle.length >= 3
+        && $handle.length <= 100
+        && $handle.matches(/^[a-z0-9-_]+$/)
+        && auth.uid == newData.val()",
+      }
+    },
+    "coins": {
+      "$coin": {
+        "$handle": {
+          ".validate": "$handle == root.child('users').child(auth.uid).val()"
+        }
+      }
+    }
+  }
+}

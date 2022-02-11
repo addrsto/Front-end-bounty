@@ -1,0 +1,38 @@
+[
+  {
+    "q": "What is Secreth Santa?",
+    "a": "Secreth Santa is a fun \"secret Santa\" event, allowing people to send and receive Non Fungible Tokens or \"NFTs\" (also known as ERC-721 tokens)."
+  },
+  {
+    "q": "How does it work?",
+    "a": "This secret Santa is queue-based, this means that every time a new present is sent, it will be received by the person who sent a present just before. If no present was sent during 3 days, the last secret Santa will be able to claim the prize."
+  },
+  {
+    "q": "How to join?",
+    "a": "You just need to send a present to join! Next time someone will send a present, you will receive it directly in your wallet."
+  },
+  {
+    "q": "Is it possible to send any NFT?",
+    "a": "No, to avoid cheating and potential abuses, I decided to whitelist only a specific list of projects."
+  },
+  {
+    "q": "What is the prize?",
+    "a": "The prize is a collection to NFTs donated by various users and projects."
+  },
+  {
+    "q": "I want you to whitelist another project!",
+    "a": "Sure, feel free to reach out on Discord."
+  },
+  {
+    "q": "Do you make money out of this?",
+    "a": "No, this is a non-for-profit project! However, I will receive the first present as a compensation."
+  },
+  {
+    "q": "Is it possible to add something to the prize?",
+    "a": "Of course! Anyone can add a new NFT to the prize! However, this will NOT turn you into a secret Santa (this means you will NOT get any present in return)."
+  },
+  {
+    "q": "I think I have found a bug!",
+    "a": "Nice catch! Feel free to share it with me on Discord or Twitter."
+  }
+]
